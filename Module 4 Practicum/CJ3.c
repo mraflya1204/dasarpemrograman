@@ -6,7 +6,6 @@
 typedef struct snail {
   int ID;
   char name[30];
-  struct snail *contacts [20];
 } snail;
 
 int main() {
